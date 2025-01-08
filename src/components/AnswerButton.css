@@ -1,0 +1,34 @@
+.answer-button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .answer-button.selected {
+    background-color: #28a745;
+  }
+  
+  .answer-button.correct {
+    background-color: #28a745;
+  }
+  
+  .answer-button.incorrect {
+    background-color: #dc3545;
+  }
+  
+  .answer-button.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .answer-button:hover {
+    background-color: #0056b3;
+  }
+  
